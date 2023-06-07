@@ -1,6 +1,23 @@
 
+/* --------------- BODY --------------- */
 
-/* --------------- INDEX/SNAIL --------------- */
+body {
+    margin: 0rem;
+    height: 100vh;
+    width: 100vw; 
+    overflow: auto;
+    font: small-caps 1rem sans-serif;
+   }
+
+.body {
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+
+/* --------------- SNAIL --------------- */
 
 .snail-box {
     /* background-color: rgb(48, 136, 136); */
@@ -12,8 +29,8 @@
 }
 
 .Snail {
-    width: 30rem ;
-    height: 30rem;
+    width: 25rem ;
+    height: 25rem;
     background-image: url(../Images/seesnail.jpg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -21,9 +38,14 @@
    
 }
 
-.Snail:hover {
-    width: 10rem;
-    height: 10rem;
-    background-image: url(../Images/seesnail2.jpg);
-    transition: 4s;
+
+@media (hover: hover) {
+    .Snail:hover {
+        width: 10rem;
+        height: 10rem;
+        background-image: url(../Images/seesnail2.jpg);
+        transition: 4s;
+    }
 }
+
+
