@@ -1,0 +1,40 @@
+
+.parallax-btn {
+    margin-bottom: 2rem;
+    border: none;
+
+}
+
+.buttons {
+    display:flex;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.image-box {
+    display: flex;
+    gap: 3vmin;
+    justify-content: center;  
+    /* background-color: rgb(3, 3, 3); */
+    Align-content: start;
+    Flex-wrap: wrap;
+    width: 100vw;
+   
+}
+
+
+.image {
+    height: 30vmin; 
+    object-fit: scale-down;
+    object-position: center;
+    transition: 1s;
+    border: 0.1rem black solid;
+}
+
+.image:hover {
+    height: 50vmin;
+    transition: 1s;
+    /* background-color: aqua; */
+
+}
+

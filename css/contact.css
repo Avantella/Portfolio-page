@@ -1,0 +1,44 @@
+
+
+.cont-header {
+    text-align: center;
+    margin-bottom: -3rem;
+}
+
+
+.contact-box {
+    /* background-color: aqua; */
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contact {
+    /* width: 20rem; */
+    height: 10rem;
+    font-size: 1rem;
+    padding: 2rem 4rem 0rem 4rem;
+    background-color: rgb(151, 184, 194);
+    margin: 2rem;
+}
+
+
+input {
+font: small-caps 1rem sans-serif;
+background-color: rgb(255, 255, 255);
+
+ }
+
+
+.contactBg {
+    /* width: 50vw; */
+    height: 20vh;
+    background-image: url(../Images/Octofly.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 5rem;
+    /* background-color: rgb(23, 51, 51); */
+
+   }

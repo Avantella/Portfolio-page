@@ -1,0 +1,29 @@
+
+
+/* --------------- INDEX/SNAIL --------------- */
+
+.snail-box {
+    /* background-color: rgb(48, 136, 136); */
+    height: 50vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.Snail {
+    width: 30rem ;
+    height: 30rem;
+    background-image: url(../Images/seesnail.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 4s;
+   
+}
+
+.Snail:hover {
+    width: 10rem;
+    height: 10rem;
+    background-image: url(../Images/seesnail2.jpg);
+    transition: 4s;
+}

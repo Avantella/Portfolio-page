@@ -1,0 +1,95 @@
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    
+}
+
+
+main > * {
+    text-align: center; 
+}
+
+.parallax {
+    min-height: 50vh;
+  
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: top;
+    background-attachment: fixed;
+   
+   
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.image1 {
+    background-image: url(../Images/mindless.jpg);
+ }
+
+.image2 {
+    background-image: url(../Images/Hollow.jpg);
+}
+
+.image3 {
+    background-image: url(../Images/bunny-warrior.jpg);
+}
+
+.image4 {
+    background-image: url(../Images/Lady.jpg);
+}
+
+.image5 {
+    background-image: url(../Images/enough.jpeg);
+}
+
+.image6 {
+    background-image: url(../Images/duckpear.jpg);
+}
+
+.image7 {
+    background-image: url(../Images/Deckthehair.png);
+}
+
+.image8 {
+    background-image: url(../Images/Brainbodyfog.jpg);
+}
+
+.image9 {
+    background-image: url(../Images/Byebrain.jpg);
+}
+
+.image10 {
+    background-image: url(../Images/Steamhead.png);
+}
+
+.image11 {
+    background-image: url(../Images/Doughnutking.jpg);
+}
+
+
+.return {
+    padding-bottom: 15rem;
+}
+
+/* 
+.m.images {
+ background-image: url(../Images/mindless.jpg);
+} */
+
+/* 
+
+<img class="image" src="/Images/mindless.jpg" alt="face with jellyfish brain flying away" class="responsive">
+<img class="image" src="Images/Hollow.jpg" alt="drawing of girl with hole in chest" class="responsive">
+<img class="image" src="Images/bunny-warrior.jpg" alt="a bunny in armor with carrot as weapon" class="responsive">
+<img class="image" src="Images/Lady.jpg" alt="old lady with bird nest as hat" class="responsive">
+<img class="image" src="Images/enough.jpeg" alt="girl cutting digital heart from her chest" class="responsive">
+<img class="image" src="Images/duckpear.jpg" alt="a duck with half a pear as a body" class="responsive">
+<img class="image" src="Images/Deckthehair.png" alt="girl with hair like a christmas tree" class="responsive">
+<img class="image" src="Images/Brainbodyfog.jpg" alt="cloud of fog" class="responsive">
+<img class="image" src="Images/Byebrain.jpg" alt="brain leaving the head" class="responsive">
+<img class="image" src="Images/Steamhead.png" alt="head as a teapot with steam" class="responsive">
+<img class="image" src="Images/Doughnutking.jpg" alt="pidgeon with doughnut around neck" class="responsive">
+ */

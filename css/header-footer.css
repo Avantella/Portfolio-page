@@ -1,0 +1,159 @@
+/* --------------- BODY --------------- */
+
+body {
+    margin: 0rem;
+    height: 100vh;
+    width: 100vw; 
+    overflow: auto;
+    font: small-caps 1rem sans-serif;
+   }
+
+.body {
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+/* --------------- HEADER AND NAV BAR --------------- */
+
+.nav-bar {
+     /* background-color: aqua; */
+    display: flex;
+    Flex-direction: column;
+    align-items: center;
+ 
+   
+}
+
+.avantella-home {
+    /* background-color: rgb(175, 224, 224); */
+    font: small-caps bold 6rem sans-serif;
+    justify-content: center;
+    margin: 2rem 0 1rem 0;
+}
+
+
+.main-nav {
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 1.9rem;
+    border-bottom: 0.2rem dotted black;
+    gap: 4rem;
+    margin-top: 0rem;
+    padding-bottom: 1.2rem;
+    flex-wrap: wrap;
+}
+
+
+/* --------------- PORTFOLIO DROPDOWN --------------- */
+
+.dropbtn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    font: small-caps 1.9rem sans-serif;
+    border: none;
+  }
+
+.dropbtn:hover {
+  color:  rgb(108, 108, 108);
+}
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border: 0.1rem solid black;
+    font: small-caps 1.2rem sans-serif;
+    text-align: center;
+    
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    
+  }
+
+  
+  /* Show the dropdown menu on hover */
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #ffffff;
+  }
+
+
+
+/* --------------- FOOTER --------------- */
+
+.footer {
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+    border-top: 0.1rem solid black;
+    border-bottom: 0.1rem solid black;
+   
+}
+
+.footer-links {
+    /* background-color: blue; */
+    display: flex;
+    list-style: none;
+    gap: 10rem;
+    font-size: 0.9rem;
+    
+}
+
+.f-link {
+    border-bottom: 0.1rem dotted black;
+    padding: 0.3rem 1rem;
+    
+}
+
+/* --------------- LINKS AND HOVERING --------------- */
+
+a { 
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color:  rgb(108, 108, 108);
+    text-decoration: none;
+    /* text-decoration-color:  rgb(108, 108, 108); */
+   
+}
+
+
+/* article {
+    flex: 1;
+  } */

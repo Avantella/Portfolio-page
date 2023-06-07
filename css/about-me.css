@@ -1,0 +1,38 @@
+
+
+/* --------------- ABOUT ME --------------- */
+
+.about-header {
+    color:  rgb(172, 188, 218);
+    /* background-color: antiquewhite; */
+    text-align: center;
+}
+
+
+.photo-box {
+    /* background-color:aqua; */
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    overflow:hidden;
+    flex-wrap: wrap;
+}
+
+
+.photo {
+   height: 25vh;
+   display:flex;
+   border: solid rgb(101, 121, 160) 0.4rem;
+}
+
+
+.about-text {
+    text-align: center;
+    padding: 0 15rem;
+
+}
+
+.mememe {
+    color: rgb(101, 121, 160);
+    padding-top: 50px;
+}
